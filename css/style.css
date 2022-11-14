@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+  }
+
+#gameGrid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 400px);
+}
