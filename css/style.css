@@ -2,9 +2,68 @@
     box-sizing: border-box;
   }
 
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  outline: thin solid black;
+}
+
+#header {
+  height: 200px;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  font-size: 40px;
+  align-items: center;
+}
+
+#masterGrid {
+  height: 100%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: repeat(3, 600px);
+  grid-template-rows: 400px, 600px, 400px;
+}
+
+#turnIndicator {
+  display: grid;
+  justify-items: center;
+  font-size: 40px;
+  align-items: center;
+}
+
+
+#gameScore {
+  display: grid;
+  justify-items: center;
+  font-size: 40px;
+  align-items: center;
+}
+
+#interfaceLeft {
+  display: grid;
+  justify-items: center;
+  font-size: 40px;
+  align-items: center;
+}
+
+#interfaceBottom {
+  height: 200px;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  font-size: 40px;
+  align-items: center;
+}
+
 #gameGrid {
+    height: 450px;
     display: grid;
+    align-content: center;
     justify-content: center;
-    grid-template-columns: repeat(3, 400px);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
 }
