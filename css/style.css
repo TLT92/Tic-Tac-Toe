@@ -2,6 +2,46 @@
     box-sizing: border-box;
   }
 
+  
+.field:hover {
+    background-color: #c0c0c0;
+}
+
+.illegalField:hover {
+  background-color: #ec0000;
+}
+
+.winningField{
+  background-color:rgb(67, 155, 96)
+}
+
+
+.buttonRight {
+  background-color: rgb(92, 1, 1);
+  color: white;
+  height: 150px;
+  width: 200px;
+  font-weight: bold;
+}
+
+
+#startButton {
+  background-color: green;
+  color: white;
+  height: 100px;
+  width: 200px;
+  font-weight: bold;
+}
+  
+
+#restartButton {
+  background-color: red;
+  color: white;
+  height: 100px;
+  width: 200px;
+  font-weight: bold;
+}
+
 .field {
   display: flex;
   justify-content: center;
@@ -35,6 +75,11 @@
   align-items: center;
 }
 
+#interfaceRight {
+  display: grid;
+  row-gap: 50px;
+}
+
 
 #gameScore {
   display: grid;
@@ -50,13 +95,13 @@
   align-items: center;
 }
 
-#interfaceBottom {
-  height: 200px;
-  width: 100%;
+#interfaceMiddleBottom {
   display: grid;
   justify-items: center;
   font-size: 40px;
   align-items: center;
+  height: 400px;
+  text-align: center;
 }
 
 #gameGrid {
